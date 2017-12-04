@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce5681a-1047-4e94-a74c-c9c803d2375c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/classes/main/org/launchcode/controllers/SearchController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/controllers/ListController.java" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/controllers/ListController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/controllers/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/controllers/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list-jobs.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/list-jobs.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" />
-    </list>
+    <list default="true" id="6ce5681a-1047-4e94-a74c-c9c803d2375c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
