@@ -26,6 +26,23 @@
             </div>
         </div>
     </div>
+    <div th:fragment ="display-results">
+        <h1 th:text= "${numberofresults}"></h1>
+
+
+        <table th:each="item, idx : ${searchresults}" class="job-listing"  th:classappend="${idx.odd} ? 'odd'">
+
+            <tr th:each="entry: ${item}">
+                <td th:text = "${entry.key}"></td>
+                <td th:text = "${entry.value}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
 
 </body>
 </html>

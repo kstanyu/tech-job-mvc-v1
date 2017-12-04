@@ -40,6 +40,7 @@ public class SearchController {
         }
         model.addAttribute("columns", ListController.columnChoices);
         model.addAttribute("searchresults", searchResults);
+        model.addAttribute("numberofresults", "Result(s) " + searchResults.size());
 
         return "search";
     }

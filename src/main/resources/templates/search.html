@@ -45,9 +45,11 @@
         </tr>
     </table>-->
    <!-- <h1 th:text= "${#lists.size(${searchresults})}"></h1>-->
+   <!-- <h1 th:text= "${numberofresults}"></h1>
 
 
-    <table th:each="item, idx : ${searchresults}" th:class="${idx.odd} ? 'odd'">
+    <table th:each="item, idx : ${searchresults}" class="job-listing"  th:classappend="${idx.odd} ? 'odd'">
+
         <tr th:each="entry: ${item}">
             <td th:text = "${entry.key}"></td>
             <td th:text = "${entry.value}"></td>
@@ -56,7 +58,8 @@
             <td></td>
             <td></td>
         </tr>
-    </table>
+    </table>-->
+    <div th:replace="fragments :: display-results"></div>
 </div>
 
 </body>
